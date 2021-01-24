@@ -1,7 +1,10 @@
 {
+  "homepage": "https://gabbloquet.github.io/vuejs-showcase",
   "name": "vuejs-showcase",
   "version": "0.0.0",
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist",
     "dev": "vite",
     "build": "vite build",
     "serve": "vite preview"
